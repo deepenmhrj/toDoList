@@ -1,0 +1,13 @@
+.item.donePurchase{
+	text-decoration:line-through;
+}
+
+.item{
+	text-align: left;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #0A86F1;
+    border-color: #0A86F1;
+}

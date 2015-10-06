@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- set viewport to device width to allow responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- custom styles (always require after Bootstrap) -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+
+  <title>SHOPPING LIST</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="text-center">
+          <h1>SHOPPING LIST</h1>
+          <hr>       <!--thematic change-->
+          <form id="new_shopping_item">
+            <div class="form-group">
+              <input class="form-control" id="item_name" placeholder="What you need to buy?" autofocus>
+            </div>
+            <div class="form-group">
+              <input type="submit" class="btn btn-success" value="Add to List!">
+            </div>
+          </form>
+          <hr>       <!--thematic change-->
+
+          <ul id="shopping_list">
+            <li class="item">Apples</li>
+            <li class="item">Tea Bags</li>
+            <li class="item">BART pass</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--jQuery-->
+<script type = "text/javascript" src = "jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

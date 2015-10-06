@@ -3,8 +3,8 @@
 */
 $(function () {
 	var $shoppingUL = $('#shopping_list');
-	var $newItemForm = $('#new_shopping_item');;
-	var $itemNameBlank = $('#item_name')
+	var $newItemForm = $('#new_shopping_item');
+	var $itemNameBlank = $('#item_name');
 
 	$newItemForm.on("submit", function(event){ 	// Add a "submit" event handler to your form. The event handler 
 		// should console.log the text the user entered into the form. 

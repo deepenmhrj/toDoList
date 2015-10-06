@@ -1,5 +1,5 @@
 /**
-* Created by Deepen on 10/1/15.
+* Created by Deepen on 10/1/14.
 */
 $(function () {
 	var $shoppingUL = $('#shopping_list');
